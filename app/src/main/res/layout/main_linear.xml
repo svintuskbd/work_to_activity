@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            tools:text="some text"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/input_text17"
+            style="@style/valueText"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="140dp"
+            android:hint="@string/some_text" />
+
+        <EditText
+            android:id="@+id/input_text2"
+            style="@style/valueText"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="140dp"
+            android:hint="@string/some_text" />
+
+        <EditText
+            android:id="@+id/input_text3"
+            style="@style/valueText"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="140dp"
+            android:hint="@string/some_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/action_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="@string/press_me" />
+    </LinearLayout>
+</ScrollView>
